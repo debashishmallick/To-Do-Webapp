@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(93, 93, 170);
+    font-family: 'poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.con {
+    width: 360px;
+    padding: 33px;
+    background-color: rgb(21, 194, 194);
+    margin-left: 33px;
+    margin-top: 15px;
+
+}
+
+input {
+    width: 270px;
+    padding: 8px;
+    border: 3px solid blue;
+    outline: none;
+    font-size: 15px;
+}
+
+button {
+    width: 60px;
+    height: 40px;
+
+    border: 3px solid rgb(32, 88, 177);
+    outline: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.text ul {
+    position: relative;
+    background-color: rgb(29, 26, 189);
+    color: white;
+    font-size: 19px;
+    text-align: left;
+    padding: 7px;
+}
+
+.text ul span {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
